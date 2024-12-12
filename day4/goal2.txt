@@ -1,0 +1,15 @@
+M.S     lefts
+.A.
+M.S
+
+S.M     rights
+.A.
+S.M
+
+S.S     bottoms
+.A.
+M.M
+
+M.M     tops
+.A.
+S.S

@@ -83,6 +83,14 @@ func part1(graph [][]byte) int {
 	return count
 }
 
+func part2(graph [][]byte) int {
+	count := 0
+	fmt.Printf("%v\n", graph)
+	// scan the graph with a convolution matrix of size 3x3
+	// if current convolution has "MAS" in x shape, increase count
+	return count
+}
+
 func main() {
 	// convert file to 2d array of strs or chars?
 	file, err := os.Open("./input.txt")
